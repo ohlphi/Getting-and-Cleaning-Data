@@ -18,7 +18,7 @@ runThis <- function() {
       y_test <- read.table("UCI HAR Dataset/test/y_test.txt")
       subject_test <- read.table("UCI HAR Dataset/test/subject_test.txt")
       
-      #Use rbind to combine the id's from both the test and the training sets.
+      #Use rbind to combine the data from both the test and the training sets.
       x_data <- rbind(x_train, x_test)
       y_data <- rbind(y_train, y_test)
       subject_data <- rbind(subject_train, subject_test)
