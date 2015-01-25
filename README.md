@@ -21,7 +21,7 @@ Based on the data files provided you should create one R script called run_analy
 * Start R and set the directory to your directory folder.
 * Source the script in `run_analysis.R` in R: `source("run_analysis.R")`
 * Type in the command in R: `runThis()`. When doing this the UCI HAR Dataset folder will be downloaded to the directory with its files.
-* The independent tidy data set, `mean_data.txt`, will be created when running "runThis()" and saved in the directory folder, using the files in the UCI HAR Dataset.
+* The independent tidy data set, `mean_data.txt`, will be created when running `runThis()` and saved in the directory folder, using the files in the UCI HAR Dataset.
 
 
 ###ADDITIONAL INFORMATION
