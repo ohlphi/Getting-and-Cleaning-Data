@@ -10,6 +10,7 @@ The `mean_data.txt` is the outcome of cleaning and tidying of the original data.
 The data is based on observation of 30 subjects, performing 6 different activities, which have been divided into a training set and test set. More info can be found [here](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones).
 
 The setup of the file and its variables is the following: 
+
 1. `Subject`: Denoting the subject number that performed the activity. From the training and test sets there are 30 subjects. 
 2. `Activity`: Denoting the activity the subject performed. There are 6 activities listed in the data:
 	 * SITTING
