@@ -26,4 +26,5 @@ Based on the data files provided you should create one R script called run_analy
 
 ###ADDITIONAL INFORMATION
 * Make sure to have the "dplyr" package installed, as the script depends on having this package installed. If not installed, install the package by typing in R: `install.packages("dplyr")` before running the script.
+* Also, in case you are sitting on a Windows laptop, remove `method = "curl"` on row 8 in the `run_analysis.R` scrip.
 
